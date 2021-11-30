@@ -1,5 +1,5 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
+Markdown is een simpele manier om HTML te schrijven.
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
@@ -13,16 +13,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.tesla.com/nl_nl
 
-#### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+#### Screenshot(s) van de eerste pagina (small screen):
+hier de naam van de pagina
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+hier de naam van de pagina
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+
 </details>
 
 ## Toegankelijkheidstest
@@ -39,19 +39,19 @@ Hier korte omschrijving (met indien nodig een afbeelding)
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel tweede bevinding. 
+#### Titel tweede bevinding.
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel volgende bevinding. 
+#### Titel volgende bevinding.
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel nog een bevinding. 
+#### Titel nog een bevinding.
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
@@ -79,8 +79,13 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1.
+https://www.tesla.com/nl_nl
+De website van Tesla voor de afbeelding, indeling, code etc.
+2.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+Voor de bases opzet van mijn HTML bestand.
+3. https://www.w3schools.com/cssref/pr_background-image.asp
+Voor de achtergrond van een sectie. Hoe je een afbeelding hierop plaatst en hoe je de verhoudingen goed krijgt hier.
 
 </details>
