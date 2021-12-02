@@ -9,10 +9,6 @@
 }
 
 /* Basis */
-main {
-    height: 100vh;
-}
-
 body {
     text-align: center;
     line-height: 1;
@@ -22,16 +18,7 @@ body {
 a {
     text-decoration: none;
     color: dimgray;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 16px;
-}
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
+    border-bottom: solid 1px black;
 }
 
 h2 {
@@ -41,79 +28,77 @@ h2 {
     font-size: 40px;
 }
 
-/* De verschillende secties binnen de code */
-.Model3 {
-    background-image: url(../images/Model-3.jpeg);
-    background-color: white;
+main {
+    scroll-snap-type: y mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    overflow: scroll;
+    height: 100vh;
+}
+
+section {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center center;
+    scroll-snap-align: start;
+}
+
+/* De verschillende secties binnen de code */
+.Model3,
+.ModelY,
+.ModelS,
+.ModelX,
+.SolarenPowerwall,
+.Accessoires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.Model3 {
+    background-image: url(../images/Model-3.jpeg);
+    background-color: white;
 }
 
 .ModelY {
     background-image: url(../images/Model-Y.jpeg);
     background-color: white;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center center;
 }
 
 .ModelS {
     background-image: url(../images/Model-S.jpeg);
     background-color: white;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center center;
 }
 
 .ModelX {
     background-image: url(../images/Model-X.jpeg);
     background-color: white;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center center;
 }
 
 .SolarenPowerwall {
     background-image: url(../images/SolarPanels.jpeg);
     background-color: white;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center center;
 }
 
 .Accessoires {
     background-image: url(../images/Accessories.jpeg);
     background-color: white;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center center;
 }
 
 /* De verschillende elementen in de secties */
 .sec-boven {
     align-items: center;
     justify-content: center;
-    padding-top: 10%;
+    margin-top: 10em;
 }
 
 .sec-onder {
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
-    padding-top: 30%;
+    margin-bottom: 10em;
 }
 
 button {

@@ -88,4 +88,9 @@ Voor de bases opzet van mijn HTML bestand.
 3. https://www.w3schools.com/cssref/pr_background-image.asp
 Voor de achtergrond van een sectie. Hoe je een afbeelding hierop plaatst en hoe je de verhoudingen goed krijgt hier.
 
+4. https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
+Informatie over scroll-snap-type, hoe zorg ik ervoor dat die focust op een sectie als je scrollt?
+
+5. https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working
+Uitleg waarom mijn scroll-snap-type eerst niet werkte, met deze fix is het nu uiteindelijk wel gelukt.
 </details>
