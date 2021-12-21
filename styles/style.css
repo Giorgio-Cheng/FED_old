@@ -121,3 +121,62 @@ button {
     opacity: .65;
     color: dimgray;
 }
+
+/* Navigatie
+.header {
+    position: fixed;
+    height: 3em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.nav-container {
+    width: 100%;
+    height: 100%;
+    max-width: 88em;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 1em;
+}
+
+.nav_logo {
+    svg {
+        width: 100px;
+        height: 24px;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-item {
+    font-size: 15px;
+    margin: 0 9px;
+    text-transform: uppercase;
+}
+
+.nav-menu-midden {
+    position: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    justify-content: center;
+}
+
+*/
