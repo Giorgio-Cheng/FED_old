@@ -85,8 +85,6 @@ De website is wel responsive gemaakt, in eerste instantie wilde ik breakpoint ma
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
 1.
 https://www.tesla.com/nl_nl
 De website van Tesla voor de afbeelding, indeling, code etc.
