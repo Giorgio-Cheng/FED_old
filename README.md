@@ -16,10 +16,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 https://www.tesla.com/nl_nl
 
 #### Screenshot(s) van de eerste pagina (small screen):
+Homepagina van Tesla
 <img src="images/Screenshot 2022-01-12 at 00.07.13.png" width="375px" alt="Homepagina van Tesla">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina
+Product pagina van Model S
 <img src="images/Screenshot 2022-01-12 at 00.07.18.png" width="375px" alt="Product pagina van Model S">
 
 </details>
