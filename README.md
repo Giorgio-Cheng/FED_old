@@ -16,11 +16,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 https://www.tesla.com/nl_nl
 
 #### Screenshot(s) van de eerste pagina (small screen):
-Homepagina van Tesla
 <img src="images/Screenshot 2022-01-12 at 00.07.13.png" width="375px" alt="Homepagina van Tesla">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Product pagina van Model S
+hier de naam van de pagina
 <img src="images/Screenshot 2022-01-12 at 00.07.18.png" width="375px" alt="Product pagina van Model S">
 
 </details>
@@ -85,25 +84,21 @@ De website is wel responsive gemaakt, in eerste instantie wilde ik breakpoint ma
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
+Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+
 1.
 https://www.tesla.com/nl_nl
 De website van Tesla voor de afbeelding, indeling, code etc.
 2.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 Voor de bases opzet van mijn HTML bestand.
-3.
-https://www.w3schools.com/cssref/pr_background-image.asp
+3. https://www.w3schools.com/cssref/pr_background-image.asp
 Voor de achtergrond van een sectie. Hoe je een afbeelding hierop plaatst en hoe je de verhoudingen goed krijgt hier.
-4. 
-https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
+4. https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
 Informatie over scroll-snap-type, hoe zorg ik ervoor dat die focust op een sectie als je scrollt?
-5. 
-https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working
+5. https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working
 Uitleg waarom mijn scroll-snap-type eerst niet werkte, met deze fix is het nu uiteindelijk wel gelukt.
-6. 
-https://www.youtube.com/watch?v=rg7Fvvl3taU , Kevin Powell. Handige uitleg om grid onder de knie te krijgen. Geeft ook veel informatie over wat je er verder mee kan doen en verschillende methodes. 
-7. 
-https://1linelayouts.glitch.me , maakt grid super makkelijk om te begrijpen en laat ook meteen zien hoe je dit moet toepassen en wat er dan veranderd.
-8. 
-https://wdn.unl.edu/page-title-h1-best-practices , h1 verbergen zonder dat deze voor screen readers verborgen wordt.
+6. https://www.youtube.com/watch?v=rg7Fvvl3taU , Kevin Powell. Handige uitleg om grid onder de knie te krijgen. Geeft ook veel informatie over wat je er verder mee kan doen en verschillende methodes. 
+7. https://1linelayouts.glitch.me , maakt grid super makkelijk om te begrijpen en laat ook meteen zien hoe je dit moet toepassen en wat er dan veranderd.
+8. https://wdn.unl.edu/page-title-h1-best-practices , h1 verbergen zonder dat deze voor screen readers verborgen wordt.
 </details>

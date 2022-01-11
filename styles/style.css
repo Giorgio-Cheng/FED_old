@@ -256,7 +256,11 @@ footer button {
 @media (max-width: 600px) {
     .sec-onder {
         display: block;
-        margin: 40px auto;
+        margin: 40px auto 10vh;
+    }
+
+    section div {
+        margin-bottom: 15em;
     }
 
     footer button {
