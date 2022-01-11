@@ -16,12 +16,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 https://www.tesla.com/nl_nl
 
 #### Screenshot(s) van de eerste pagina (small screen):
-hier de naam van de pagina
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/Screenshot 2022-01-12 at 00.07.13.png" width="375px" alt="Homepagina van Tesla">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/Screenshot 2022-01-12 at 00.07.18.png" width="375px" alt="Product pagina van Model S">
 
 </details>
 
@@ -64,12 +63,20 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Wat was lastig?
+
+In het begin was ik veel aan het opzoeken en aan het proberen maar lukte het telkens niet, dit kwam vooral door display: absolute en relative. Ook was ik vergeten hoe het nou precies zat met display: block en flex. Toen ik dit weer onder controle had ging het wel beter.
+
+Ik vind het alleen nog moeilijk om onderdelen op de juiste plek te krijgen en hierbij de juiste definities te gebruiken. In het begin heb ik bijna alleen maar div gebruikt om alles goed op zijn plek te krijgen, na een feedback ronde heb ik dit helemaal omgegooid en heb ik overal de juiste elementen voor gebruikt (denk ik). Ook gebruik ik veel classes terwijl dit niet altijd nodig is. Ik denk dat er nogsteeds veel classes weg kunnen maar hier heb ik niet genoeg tijd voor gehad.
+
+Ik had graag wat meer tijd gehad om alles nog goed uit te werken. Ik ben hier in de vakantie niet aan toegekomen ivm een SRP punt. Ik heb uiteindelijk de anmiatie niet gebruikt, ik weet wel waar ik deze ga toepassen en hoe. Ik ga bij de grid op de Model S pagina de micro interaction van Joost Faber gebruiken welke op codepin staat. Ik heb alleen nog niet genoeg tijd gehad om hier in te duiken omdat ik lang geen javascript heb gebruikt.
+
+De website is wel responsive gemaakt, in eerste instantie wilde ik breakpoint maken voor 3 verschillende devices (mobiel, tablet en desktop). Toen ik hiermee bezig was zag ik online een reactie op een artikel die zei dat het verstandiger is om breakpoints te bepalen op de content van de site, dit leek mij ook een beter idee. Hierdoor blijft de site er beter uit zien voor verschillende schermen en niet alleen voor 3 devices.
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
-
+<img src="images/Screenshot 2022-01-12 at 00.22.08.png">
+<img src="images/Screenshot 2022-01-12 at 00.22.25.png">
+<img src="images/Screenshot 2022-01-12 at 00.22.34.png">
 </details>
 
 ## Bronnenlijst
@@ -91,5 +98,7 @@ Voor de achtergrond van een sectie. Hoe je een afbeelding hierop plaatst en hoe 
 Informatie over scroll-snap-type, hoe zorg ik ervoor dat die focust op een sectie als je scrollt?
 5. https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working
 Uitleg waarom mijn scroll-snap-type eerst niet werkte, met deze fix is het nu uiteindelijk wel gelukt.
-6.
+6. https://www.youtube.com/watch?v=rg7Fvvl3taU , Kevin Powell. Handige uitleg om grid onder de knie te krijgen. Geeft ook veel informatie over wat je er verder mee kan doen en verschillende methodes. 
+7. https://1linelayouts.glitch.me , maakt grid super makkelijk om te begrijpen en laat ook meteen zien hoe je dit moet toepassen en wat er dan veranderd.
+8. https://wdn.unl.edu/page-title-h1-best-practices , h1 verbergen zonder dat deze voor screen readers verborgen wordt.
 </details>

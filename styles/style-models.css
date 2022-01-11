@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/* Algemeen */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    color: white;
+    letter-spacing: 1px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+/* Navigatie */
+section header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+
+header ul {
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    width: 120px;
+    padding-left: 32px;
+}
+
+.nav-item {
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 1.25em;
+    font-size: 14px;
+}
+
+.nav-item:hover {
+    background: rgba(0, 0, 0, 0.116);
+    transition: 0.3s;
+}
+
+/* Sectie 1 */
+.section-1 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    margin-bottom: 40vh;
+    text-align: center;
+}
+
+footer ul {
+    align-content: center;
+    align-items: stretch;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.disclaimer {
+    text-align: center;
+    margin: 1vh auto 3vh;
+}
+
+/* Section 2 */
+.section-2 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/177c0faf-b852-47ea-a218-394368e15a20/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;;
+}
+
+.section-2 h2 {
+    text-align: center;
+    background: #000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* Section 3 */
+.section-3 {
+    width: 70%;
+    margin: auto;
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.carousel {
+    grid-column-start: 1;
+    grid-column-end:   3;
+    margin: 0px auto 100px;
+}
+
+.carousel-text {
+    width: 70%;
+    margin: 20px auto 0px;
+}
+
+.grid-text-links {
+    margin: auto 120px auto 0px;
+}
+
+.grid-text-rechts {
+    margin: auto 0px auto 120px;
+}
+
+.section-4 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/06e710a1-0428-45e9-8945-580e80d77b55/bvlatuR/std/2880x1800/MS-Performance-Hero-Desktop");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+    position: relative;
+}
+
+.stats-zonder-header {
+    align-content: center;
+    align-items: stretch;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px auto;
+    width: 60%;
+    position: absolute;
+    bottom: 3em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+/* Text opmaak */
+h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.title p {
+    color: black;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+/* Button opmaak */
+li button {
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: white;
+    text-transform: uppercase;
+    padding: 1em 4em;
+    background-color: transparent;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+article h2 {
+    margin-bottom: 8px;
+}
+
+/* Responsive */
+
+/* Navigatie */
+@media (max-width: 1200px) {
+    .nav-midden {
+        display: none;
+    }
+
+    .nav-menu-rechts {
+        display: none;
+    }
+
+    .menu-1200 {
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1.25em;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.116);
+    border-color: transparent;
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu-1200 {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .button-tablet {
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: white;
+    text-transform: uppercase;
+    padding: 1em 4em;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    margin: 30px auto;
+    }
+
+    footer ul {
+        margin: 25px auto 0px !important;
+    }
+
+    li button {
+        display: none;
+    }
+
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .section-3 {
+        width: 90%;
+        margin: auto;
+        padding: 100px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1100px) {
+    .button-tablet {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    footer ul {
+        width: 90%;
+    }
+
+    .stats-zonder-header {
+        width: 90%;
+    }
+
+    li p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-3 {
+        width: 90%;
+        margin: auto;
+        padding: 100px 0px 30px;
+        display: block;
+    }
+
+    .carousel {
+        margin: 40px auto;
+    }
+
+    .carousel-text {
+        width: 90%;
+        margin: 20px 0px;
+    }
+
+    .grid-text-links {
+        margin: 40px auto;
+    }
+    
+    .grid-text-rechts {
+        margin: 40px auto;
+    }
+
+    .hide-on-phone {
+        display: none;
+    }
+
+    .button-tablet {
+        padding: 1em 12em;
+        }
+}
+
+@media (min-width: 600px) {
+    .show-on-phone {
+        display: none;
+    }
+}
